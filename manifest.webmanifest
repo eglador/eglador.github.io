@@ -1,0 +1,26 @@
+{
+    "lang": "tr",
+    "dir": "ltr",
+    "name": "Eglador",
+    "short_name": "design and development studio",
+    "description": "Eglador - design and development studio",
+    "icons": [
+        {
+            "src": "images/common/manifest/192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "images/common/manifest/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "scope": "/",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "theme_color": "#ffffff"
+}
