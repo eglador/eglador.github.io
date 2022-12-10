@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "npx tailwindcss -i ./style/app.css -o ./style/app.min.css --watch"
+    "tailwind-build": "npx tailwindcss -i ./style/app.css -o ./style/app.min.css build",
+    "tailwind-watch": "npx tailwindcss -i ./style/app.css -o ./style/app.min.css --watch"
   },
   "author": "Eglador",
   "devDependencies": {
